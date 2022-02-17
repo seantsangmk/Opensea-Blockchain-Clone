@@ -28,8 +28,12 @@ const Hero = () => {
               Opensea is the world&apos;s first and largest NFT marketplace
             </div>
             <div className={style.ctaContainer}>
-              <button className={style.accentedButton}>Explore</button>
-              <button className={style.button}>Create</button>
+              <a href="https://opensea.io/explore-collections">
+                <button className={style.accentedButton}> Explore</button>
+              </a>
+              <a href="https://opensea.io/asset/create">
+                <button className={style.button}>Create</button>
+              </a>
             </div>
           </div>
           <div className={style.cardContainer}>
@@ -45,12 +49,12 @@ const Hero = () => {
                 alt=""
               />
               <div className={style.author}>
-                <div className={style.name}>Sean making replica opensea</div>
+                <div className={style.name}>Click Collections from Header</div>
                 <a
                   className="text[#186Bb7]"
                   href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/75175737854990633963038132750829382025497231539213825528077744744957699162113"
                 >
-                  Sean
+                  Sean, Tsang Man Kin
                 </a>
               </div>
             </div>
